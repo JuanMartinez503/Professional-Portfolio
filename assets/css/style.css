@@ -11,6 +11,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: var(--dark);
+    font-size: 12px;
 }
 header {
     height: 100px;
@@ -24,6 +25,7 @@ header {
 header h1{
     display: flex;
     flex: 0 1 200px;
+    font-size: 35px;
 
     background-color: var(--skyblue);
     color: var(--dark);
@@ -41,8 +43,16 @@ header nav  a{
 header nav a:hover{
     transition: all .3s;
     font-size: 20px;
+    background-color: var(--skyblue);
+    color: var(--dark);
 }
 .cover {
+    
+    background-image: linear-gradient(45deg, rgba(0,0,0,.4),rgba(0,0,0,.2));
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 1px solid black;
     height: 35vh;
     position: relative;
@@ -54,6 +64,7 @@ header nav a:hover{
     bottom: 10%;
     color: var(--dark);
     background-color: var(--skyblue);
+    font-size: 30px;
 }
 .content {
     display: flex;
@@ -62,9 +73,11 @@ header nav a:hover{
     
 }
 .content h3{
+    font-size: 25px;
     width: 20vw;
     text-align: right;
 }
+
 .right{
 margin: 2.5%;
 display: inline-block;
@@ -82,20 +95,39 @@ display: inline-block;
     position: relative;
     margin-bottom: 2.5vh;
 }
-.main-project h3 {
+.main-project div {
     position: absolute;
     background-color: var(--skyblue);
     padding-right: 5%;
     bottom: 25%;
     height: 5vh;
     width: 20vw;
+    z-index: 1;
+    padding: 3px;
+} 
+.main-project div h3 {
+    text-align: left;
 }
+
 .main-project img {
+    filter: saturate(0);
     width: 57.2vw;
     height: 29vh;
     align-items: center;
     border: .5vw solid var(--skyblue);
 }
+.main-project:hover img  {
+    filter: saturate(1);
+    transform: scale(1.1);
+    transition: all .3s ease-in;
+  
+} 
+.main-project:hover div {
+    transition: all .3s ease-in;
+    transform: scale(1.275);
+}
+
+
 .other-project {
     display: inline-block;
     width: 28vw;
@@ -104,22 +136,36 @@ display: inline-block;
     margin-bottom: 2.5%;
     
 }
-.other-project h3 {
+.other-project div {
     position: absolute;
     background-color: var(--skyblue);
     padding-right: 5%;
     bottom: 25%;
     height: 5vh;
-    width: 10vw;
+    width: 15vw;
+    z-index: 1;
 
+} .other-project div h3{
+    text-align: left;
+    font-size: 20px;
 }
 .other-project img {
-
+    filter: saturate(0);
     width: 27vw;
     height: 12vh;
     align-items: center;
     border: .5vw solid var(--skyblue);
 
+}
+.other-project:hover img  {
+    filter: saturate(1);
+    transform: scale(1.1);
+    transition: all .3s ease-in;
+  
+} 
+.other-project:hover div {
+    transition: all .3s ease-in;
+    transform: scale(1.15);
 }
 .right-margin {
     margin-right: 2.25vh;
