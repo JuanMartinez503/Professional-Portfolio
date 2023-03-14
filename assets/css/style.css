@@ -4,7 +4,7 @@
     --skyblue: skyblue;
 }
 body {
-    background-color: rgba(80,0,0,.1);
+    background-color: #f5f5f5
 }
 *{
     margin: 0;
@@ -200,6 +200,38 @@ footer nav a:hover {
     }
     header h1{
         width: 50vw;
+
     }
-   
+    footer{
+        position: relative;
+    }
+    footer .left {
+        border: none;
+        margin: 0;
+        border-bottom: 1vh solid var(--dark);
+
+
+    }
+    
+    footer .left h3 {
+        
+
+        width: 100vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: 10px;
+    
+        
+    }
+   footer nav {
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 40%;
+    bottom: -13vh;
+    }
 }
