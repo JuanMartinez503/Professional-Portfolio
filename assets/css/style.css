@@ -221,8 +221,8 @@ footer nav a:hover {
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 30%;
-    bottom: -13vh;
+    left: 21%;
+    bottom: -14vh;
     }
 }
 @media screen and (max-width: 600px){
@@ -237,7 +237,7 @@ footer nav a:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 20vh;
+        height: 22vh;
     }
     header h1{
         width: 50vw;
