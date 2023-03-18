@@ -103,7 +103,6 @@ display: inline-block;
     height: auto;
     position: relative;
     margin-bottom: 2.5vh;
-    border: 2px solid red;
 }
 .main-project div {
     position: absolute;
@@ -128,13 +127,13 @@ display: inline-block;
 }
 .main-project:hover img  {
     filter: saturate(1);
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: all .3s ease-in;
   
 } 
 .main-project:hover div {
     transition: all .3s ease-in;
-    transform: scale(1.275);
+    transform: scale(1.15);
 }
 
 
@@ -159,6 +158,7 @@ display: inline-block;
     text-align: left;
     font-size: 20px;
 }
+/* I made them have a height of 30vh because of the pictures was way taller when I made the have a height of auto */
 .other-project img {
     filter: saturate(0);
     width: 100%;
@@ -191,6 +191,7 @@ footer nav a:hover {
     font-size: 20px;
     transition: all .3s ease-in;
     }
+    /* media query for larger mobile devices */
 @media screen and (max-width:768px) {
  
     footer{
@@ -226,6 +227,7 @@ footer nav a:hover {
     bottom: -14vh;
     }
 }
+/* media query for smaller devices */
 @media screen and (max-width: 600px){
     header nav a{
         display: flex;
