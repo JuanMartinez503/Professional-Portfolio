@@ -150,8 +150,8 @@ display: inline-block;
     background-color: var(--skyblue);
     padding-right: 5%;
     bottom: 25%;
-    height: 6vh;
-    width: 15vw;
+    height: 8vh;
+    width: 60%;
     z-index: 1;
 
 } .other-project div h3{
@@ -228,7 +228,7 @@ footer nav a:hover {
     }
 }
 /* media query for smaller devices */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 450px){
     header nav a{
         display: flex;
         justify-content: center;
