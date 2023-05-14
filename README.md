@@ -5,4 +5,5 @@ The purpose of this challenge was to come up with a professional portfolio that 
 ![Screenshot 2023-03-15 at 3 27 26 PM](https://user-images.githubusercontent.com/116415860/225422488-d3ef9634-ea66-481c-a8ba-1e682c8be94b.png)
 
 
-### Here is the URL for the deployed application: https://juanmartinez503.github.io/challenge2-JuanM/
+### URL
+[Professional Portfolio](https://juanmartinez503.github.io/Professional-Portfolio/)
