@@ -109,8 +109,8 @@ display: inline-block;
     background-color: var(--skyblue);
     padding-right: 5%;
     bottom: 25%;
-    height: 7vh;
-    width: 20vw;
+    height: 15vh;
+    width: 30vw;
     z-index: 1;
     padding: 3px;
 } 
@@ -127,15 +127,9 @@ display: inline-block;
 }
 .main-project:hover img  {
     filter: saturate(1);
-    transform: scale(1.05);
     transition: all .3s ease-in;
   
 } 
-.main-project:hover div {
-    transition: all .3s ease-in;
-    transform: scale(1.15);
-}
-
 
 .other-project {
     display: inline-block;
