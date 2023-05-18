@@ -75,11 +75,12 @@ header nav a:hover{
 .content {
     display: flex;
     
+    
     flex-direction: row;
     
 }
 .content h3{
-    font-size: 25px;
+    font-size: 2rem;
     width: 20vw;
     text-align: right;
 }
@@ -109,13 +110,14 @@ display: inline-block;
     background-color: var(--skyblue);
     padding-right: 5%;
     bottom: 25%;
-    height: 15vh;
+    height: 30%;
     width: 30vw;
     z-index: 1;
     padding: 3px;
 } 
 .main-project div h3 {
     text-align: left;
+    font-size: 1.5rem;
 }
 
 .main-project img {
@@ -150,7 +152,7 @@ display: inline-block;
 
 } .other-project div h3{
     text-align: left;
-    font-size: 20px;
+    font-size: 1rem;
 }
 /* I made them have a height of 30vh because of the pictures was way taller when I made the have a height of auto */
 .other-project img {
@@ -217,8 +219,8 @@ footer nav a:hover {
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 21%;
-    bottom: -14vh;
+    left: 275px;
+    bottom: -120px;
     }
 }
 /* media query for smaller devices */
